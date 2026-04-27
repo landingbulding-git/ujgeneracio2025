@@ -42,9 +42,9 @@ import service6Img from '../assets/service6.webp';
 			<Image src={casestudy1Img} alt="Esettanulmány 1" class="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg" slot="image1" />
 			<Image src={casestudy2Img} alt="Esettanulmány 2" class="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg" slot="image2" />
 		</CaseStudies>
-		<Problems client:visible />
-		<Solution client:visible />
-		<Services client:visible>
+		<Problems />
+		<Solution />
+		<Services>
 			<Image src={service1Img} alt="Vízlágyítás" class="w-full h-full object-cover" slot="image1" />
 			<Image src={service2Img} alt="Ivóvíz-tisztítás" class="w-full h-full object-cover" slot="image2" />
 			<Image src={service3Img} alt="Komplett kútvíz-kezelés" class="w-full h-full object-cover" slot="image3" />
@@ -52,17 +52,17 @@ import service6Img from '../assets/service6.webp';
 			<Image src={service5Img} alt="Fordított ozmózis (RO) rendszerek" class="w-full h-full object-cover" slot="image5" />
 			<Image src={service6Img} alt="NeoCrystal fizikai vízkezelés" class="w-full h-full object-cover" slot="image6" />
 		</Services>
-		<HowItWorks client:visible />
-		<Features client:visible />
-		<About client:visible>
+		<HowItWorks />
+		<Features />
+		<About>
 			<Image src={aboutImg} alt="Lévay Ferenc Zoltán" class="w-full h-full object-cover" slot="aboutImage" />
 		</About>
-		<Testimonials client:visible />
-		<CTABanner client:visible>
+		<Testimonials />
+		<CTABanner>
 			<Image src={ctaBannerImg} alt="Hand washing" class="w-full h-auto aspect-video object-cover rounded-2xl shadow-sm" slot="ctaImage" />
 		</CTABanner>
-		<WhyActNow client:visible />
+		<WhyActNow />
 		<FAQ client:visible />
-		<Footer client:visible />
+		<Footer />
 	</main>
 </Layout>
