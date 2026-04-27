@@ -37,7 +37,7 @@ export function Hero() {
 
         <div className="w-full flex justify-center mb-16 relative">
           <img
-            src="https://cdn.gamma.app/tzl2sixgokxpy70/13738d54a43d48b9b043b71d1131c973/original/30-ev-2.png"
+            src="https://d373oczarutjashi.public.blob.vercel-storage.com/20ev.webp"
             alt="20+ év tapasztalat"
             className="w-full max-w-2xl object-cover rounded-2xl"
           />

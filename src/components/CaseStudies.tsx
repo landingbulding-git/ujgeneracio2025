@@ -97,7 +97,7 @@ export function CaseStudies() {
   return (
     <section id="esettanulmanyok" className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <CaseStudy
-        image="https://cdn.gamma.app/tzl2sixgokxpy70/4ab4bf9f859f453d973ca935f9c4cb50/original/unnamed-8.jpg"
+        image="https://d373oczarutjashi.public.blob.vercel-storage.com/casestudy1.webp"
         imagePosition="left"
         title="A mindennapokban hihetetlen változás volt, hogy mindig van tiszta víz a házban."
         text={
@@ -151,7 +151,7 @@ export function CaseStudies() {
       />
 
       <CaseStudy
-        image="https://cdn.gamma.app/tzl2sixgokxpy70/7a21dd36dc654fb7bddd975ec4089b7d/original/unnamed-7.jpg"
+        image="https://d373oczarutjashi.public.blob.vercel-storage.com/casestudy2.webp"
         imagePosition="right"
         title="Fél év alatt tönkretette volna az összes új berendezést."
         text={

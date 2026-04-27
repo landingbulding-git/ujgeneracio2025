@@ -9,12 +9,12 @@ export function Services() {
     },
     {
       title: "Ivóvíz-tisztítás",
-      image: "https://images.pexels.com/photos/6857798/pexels-photo-6857798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: "https://d373oczarutjashi.public.blob.vercel-storage.com/service2.webp",
       desc: "Klór, nehézfémek, baktériumok eltávolítása. Kristálytiszta víz közvetlenül a csapból. Felejtsd el a palackokat.",
     },
     {
       title: "Komplett kútvíz-kezelés",
-      image: "https://images.pexels.com/photos/161502/shower-shower-head-water-drop-of-water-161502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: "https://d373oczarutjashi.public.blob.vercel-storage.com/service3.webp",
       desc: "A fúrott kút vize biztonságos, használható és egészséges lesz minden csapból",
     },
   ];
@@ -22,17 +22,17 @@ export function Services() {
   const industrialServices = [
     {
       title: "Ipari és mezőgazdasági vízlágyítás",
-      image: "https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://d373oczarutjashi.public.blob.vercel-storage.com/service4.webp",
       desc: "Élelmiszer-feldolgozás, állatitatás, öntözés. Stabil vízminőséget garantálunk automata regenerációval. Nem kell megállítani a termelést.",
     },
     {
       title: "Fordított ozmózis (RO) rendszerek",
-      image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://d373oczarutjashi.public.blob.vercel-storage.com/service5.webp",
       desc: "Ipari RO rendszerek telepítése és karbantartása, olyan különleges területeken, mint a gyógyszeripar vagy steril laborok, ahol a tisztaság kritikus.",
     },
     {
       title: "NeoCrystal fizikai vízkezelés",
-      image: "https://images.pexels.com/photos/162568/architecture-building-industry-162568.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://d373oczarutjashi.public.blob.vercel-storage.com/service6.webp",
       desc: "Nem kell megbontani a vízhálózatot. Csak áram és egy egyenes csőszakasz szükséges, hogy a NeoCrystal berendezéssel megakadályozzuk a vízkő lerakódását.",
     },
   ];

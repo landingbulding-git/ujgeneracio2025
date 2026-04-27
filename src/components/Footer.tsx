@@ -25,8 +25,8 @@ export function Footer() {
             </div>
             
             <div>
-              <p>Telefon: +36 30 123 4567</p>
-              <p>Email: <a href="mailto:info@vizspecialista.hu" className="hover:underline">info@vizspecialista.hu</a></p>
+              <p>Telefon: +36 30 220 4982</p>
+              <p>Email: <a href="mailto:ujgeneracio2025@gmail.com" className="hover:underline">ujgeneracio2025@gmail.com</a></p>
             </div>
             
             <div>
