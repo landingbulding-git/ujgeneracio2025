@@ -54,7 +54,9 @@ export function Services() {
           {services.map((service, i) => (
             <div key={i} className="flex flex-col items-center">
               <div className="w-full aspect-square mb-6 overflow-hidden rounded-2xl shadow-sm">
-                <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+                {service.imageNode || (
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" width={600} height={600} />
+                )}
               </div>
               <h4 className="text-xl font-bold mb-3">{service.title}</h4>
               <p className="text-gray-700">{service.desc}</p>
@@ -77,7 +79,9 @@ export function Services() {
           {industrialServices.map((service, i) => (
             <div key={i} className="flex flex-col items-center">
               <div className="w-full aspect-square mb-6 overflow-hidden rounded-2xl shadow-sm">
-                <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+                {service.imageNode || (
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" width={600} height={600} />
+                )}
               </div>
               <h4 className="text-xl font-bold mb-3">{service.title}</h4>
               <p className="text-gray-700">{service.desc}</p>

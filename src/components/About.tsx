@@ -11,7 +11,9 @@ export function About({ aboutImage }: AboutProps) {
             <img 
               src="https://cdn.gamma.app/tzl2sixgokxpy70/87aa964a5316453fb2c4ccd223295772/original/unnamed-6---Edited.jpg" 
               alt="Lévay Ferenc Zoltán" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover aspect-[4/5] md:aspect-auto"
+              width={600}
+              height={750}
             />
           )}
         </div>

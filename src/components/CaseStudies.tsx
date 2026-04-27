@@ -5,6 +5,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 function CaseStudy({
   image,
+  imageNode,
   title,
   text,
   problems,
@@ -27,11 +28,15 @@ function CaseStudy({
 
   const ImageBlock = (
     <div className="w-full lg:w-2/5 p-4 sm:p-8">
-      <img
-        src={image}
-        alt={title}
-        className="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg"
-      />
+      {imageNode || (
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg"
+          width={800}
+          height={600}
+        />
+      )}
     </div>
   );
 

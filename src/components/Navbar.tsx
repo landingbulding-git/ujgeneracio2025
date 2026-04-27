@@ -25,9 +25,11 @@ export function Navbar({ logoImage }: NavbarProps) {
             <a href="#">
               {logoImage || (
                 <img
-                  className="h-12 w-auto"
+                  className="h-12 w-auto aspect-[1354/2187]"
                   src="https://cdn.gamma.app/tzl2sixgokxpy70/91b2b2d653754fe98cb52fd58716b121/original/csak-vizcsepp-01.jpg"
                   alt="Tiszta Víz"
+                  width={48}
+                  height={77}
                 />
               )}
             </a>

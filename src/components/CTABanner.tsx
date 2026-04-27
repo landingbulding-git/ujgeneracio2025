@@ -36,6 +36,8 @@ export function CTABanner({ ctaImage }: CTABannerProps) {
               src="https://images.pexels.com/photos/545013/pexels-photo-545013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
               alt="Hand washing" 
               className="w-full h-auto aspect-video object-cover rounded-2xl shadow-sm"
+              width={800}
+              height={450}
             />
           )}
         </div>

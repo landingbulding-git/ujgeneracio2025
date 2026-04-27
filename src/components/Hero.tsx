@@ -44,7 +44,9 @@ export function Hero({ heroImage }: HeroProps) {
             <img
               src="https://cdn.gamma.app/tzl2sixgokxpy70/13738d54a43d48b9b043b71d1131c973/original/30-ev-2.png"
               alt="20+ év tapasztalat"
-              className="w-full max-w-2xl object-cover rounded-2xl"
+              className="w-full max-w-2xl object-cover rounded-2xl aspect-video"
+              width={896}
+              height={504}
             />
           )}
         </div>
