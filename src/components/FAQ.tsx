@@ -60,11 +60,11 @@ export function FAQ() {
     },
     {
       q: "Mennyi idő alatt felszerelik?",
-      a: "Háztartási rendszereknél átlagosan 1-2 hét (beszerzés + telepítés). Ipari projekteknél a mérettől függ, de minden esetben egyeztetünk egy reális határidőt."
+      a: "Háztartási rendszereknél átlagosan néhány hét (beszerzés + telepítés). Ipari projekteknél a mérettől függ, de minden esetben egyeztetünk egy reális határidőt."
     },
     {
       q: "Mi van, ha elromlik a berendezés?",
-      a: "A berendezésekre gyártói garancia vonatkozik (BWT, Honeywell). Mi pedig évente karbantartjuk, hogy megelőzzük a problémákat. Ha mégis szükség van rá, gyorsan reagálunk."
+      a: "A berendezésekre gyártói garancia vonatkozik (Euro-Clear, Honeywell). Mi pedig évente karbantartjuk, hogy megelőzzük a problémákat. Ha mégis szükség van rá, gyorsan reagálunk."
     }
   ];
 

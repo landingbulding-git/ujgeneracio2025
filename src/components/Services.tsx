@@ -13,9 +13,9 @@ export function Services() {
       desc: "Klór, nehézfémek, baktériumok eltávolítása. Kristálytiszta víz közvetlenül a csapból. Felejtsd el a palackokat.",
     },
     {
-      title: "Teljes rendszerek",
+      title: "Komplett kútvíz-kezelés",
       image: "https://images.pexels.com/photos/161502/shower-shower-head-water-drop-of-water-161502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      desc: "Kombináljuk a technológiákat: vízlágyítás + ivóvíz-tisztítás + UV csírátlanítás. Mindent egyből.",
+      desc: "A fúrott kút vize biztonságos, használható és egészséges lesz minden csapból",
     },
   ];
 

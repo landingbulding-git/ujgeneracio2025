@@ -6,7 +6,7 @@ export function HowItWorks() {
     { title: "Beszélgetés", desc: "Felhívjuk telefonon. 10-15 perc alatt többet megtudunk, mint 10 emailben. Megbeszéljük az igényeit, a helyszínt, a lehetőségeket." },
     { title: "Vízelemzés", desc: "Megvizsgáljuk a víz állapotát (tájékoztató jelleggel, helyszínen) vagy az Ön laboreredménye alapján dolgozunk." },
     { title: "Egyedi ajánlat", desc: "Pontosan azt ajánljuk, amire szüksége van. Nem többet, nem kevesebbet." },
-    { title: "Telepítés", desc: "Átlagosan 1-2 héten belül (háztartási rendszereknél) mindent felszerelünk és beüzemelünk." },
+    { title: "Telepítés", desc: "Átlagosan néhány héten belül (háztartási rendszereknél) mindent felszerelünk és beüzemelünk." },
     { title: "Karbantartás", desc: "Gondosan megtanítjuk a rendszer használatára és időről időre jelentkezünk, hogy elvégezzük a kötelező karbantartást, így Ön nem felejtheti el. Fix ár, fix időpont." },
   ];
 

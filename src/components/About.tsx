@@ -20,7 +20,7 @@ export function About() {
               Több mint 20 éve azt csinálom, amit a legjobban szeretek: lehetetlennek tűnő vízproblémákat oldok meg.
             </p>
             <p>
-              Élelmiszermérnökként és víztisztítási technológusként indultam, de a tudásomat a gyakorlatban csiszoltam , 2000+ projekten keresztül. Szeretem a kihívásokat, mert tudom: még a legrosszabb vízből is lehet tiszta, biztonságos ivóvíz.
+              Élelmiszermérnökként és víztisztítási technológusként indultam, de a tudásomat a gyakorlatban csiszoltam , számtalan projekten keresztül. Szeretem a kihívásokat, mert tudom: még a legrosszabb vízből is lehet tiszta, biztonságos ivóvíz.
             </p>
             <p>
               Folyamatosan tanulok, mert a technológia fejlődik, és én mindig a legjobb megoldást akarom adni az ügyfeleimnek.

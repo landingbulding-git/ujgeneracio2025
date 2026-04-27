@@ -10,11 +10,15 @@ export function Hero() {
         transition={{ duration: 0.6 }}
         className="max-w-4xl"
       >
+        <div className="inline-block bg-[#ccf6ff] text-dark font-bold text-sm tracking-wide uppercase px-4 py-2 rounded-full mb-6">
+          A jövő tiszta vize ma kezdődik.
+        </div>
+        
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight text-dark mb-6">
           Tiszta víz. Egészséges család. Megbízható megoldás.
         </h1>
         <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-          Vízszűrő rendszerek telepítése és karbantartása 30 év tapasztalattal.
+          Vízszűrő rendszerek telepítése és karbantartása 20+ év tapasztalattal.
           Felmérés, szerelés, rendszeres karbantartás, mi mindenről gondoskodunk.
         </p>
 
@@ -34,22 +38,22 @@ export function Hero() {
         <div className="w-full flex justify-center mb-16 relative">
           <img
             src="https://cdn.gamma.app/tzl2sixgokxpy70/13738d54a43d48b9b043b71d1131c973/original/30-ev-2.png"
-            alt="30 év tapasztalat"
+            alt="20+ év tapasztalat"
             className="w-full max-w-2xl object-cover rounded-2xl"
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto pt-8 border-t border-gray-200">
           <div className="flex flex-col items-center">
-            <div className="text-4xl font-bold text-dark mb-2">30 év</div>
+            <div className="text-4xl font-bold text-dark mb-2">20+ év</div>
             <div className="text-lg font-bold text-dark mb-2">tapasztalat</div>
             <p className="text-gray-600 text-sm">
               Több mint másfél évtized szakértelem a vízkezelés területén
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="text-4xl font-bold text-dark mb-2">2000+</div>
-            <div className="text-lg font-bold text-dark mb-2">elégedett ügyfél</div>
+            <div className="text-4xl font-bold text-dark mb-2">Számtalan</div>
+            <div className="text-lg font-bold text-dark mb-2">ügyfél</div>
             <p className="text-gray-600 text-sm">
               Családok és vállalkozások, akik már élvezik a tiszta vizet
             </p>
