@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Navbar } from '../components/Navbar';
+import { Hero } from '../components/Hero';
+import { CaseStudies } from '../components/CaseStudies';
+import { Problems } from '../components/Problems';
+import { Solution } from '../components/Solution';
+import { Services } from '../components/Services';
+import { HowItWorks } from '../components/HowItWorks';
+import { Features } from '../components/Features';
+import { About } from '../components/About';
+import { Testimonials } from '../components/Testimonials';
+import { CTABanner } from '../components/CTABanner';
+import { WhyActNow } from '../components/WhyActNow';
+import { FAQ } from '../components/FAQ';
+import { Footer } from '../components/Footer';
+---
+
+<Layout title="Újgeneráció 2025">
+	<main class="min-h-screen bg-white">
+		<Navbar client:load />
+		<Hero client:load />
+		<CaseStudies client:visible />
+		<Problems client:visible />
+		<Solution client:visible />
+		<Services client:visible />
+		<HowItWorks client:visible />
+		<Features client:visible />
+		<About client:visible />
+		<Testimonials client:visible />
+		<CTABanner client:visible />
+		<WhyActNow client:visible />
+		<FAQ client:visible />
+		<Footer client:visible />
+	</main>
+</Layout>

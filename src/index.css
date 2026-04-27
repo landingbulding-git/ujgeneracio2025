@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ad6ff;
+  --color-primary-hover: #00b2d6;
+  --color-dark: #030303;
+  --color-gray-light: #f2f2f2;
+  --color-blue-bg: #E8F9FF;
+
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply font-sans text-dark antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+html {
+  scroll-behavior: smooth;
+}
