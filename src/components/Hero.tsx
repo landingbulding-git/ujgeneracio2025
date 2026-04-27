@@ -23,7 +23,7 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-          <a href="#contact">
+          <a href="https://tally.so/r/0QOOEN" target="_blank" rel="noopener noreferrer">
             <Button variant="primary">Ingyenes állapotfelmérést szeretnék</Button>
           </a>
           <a href="#esettanulmanyok">

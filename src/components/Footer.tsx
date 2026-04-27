@@ -13,11 +13,9 @@ export function Footer() {
             <p className="text-lg text-gray-700 mb-8">
               Ne halogassa tovább családja egészségét és otthona védelmét! Lépjen velünk kapcsolatba még ma egy ingyenes felmérésért, és tegye meg az első lépést a kristálytiszta, biztonságos víz felé.
             </p>
-            <Button variant="primary">Ingyenes állapotfelmérés</Button>
-            
-            <p className="mt-8 text-sm text-gray-500 italic">
-              * A gombra kattintva elküldheti felmérési igényét. (Demó alkalmazás: a gomb jelenleg nem küld adatot.)
-            </p>
+            <a href="https://tally.so/r/0QOOEN" target="_blank" rel="noopener noreferrer">
+              <Button variant="primary">Ingyenes állapotfelmérés</Button>
+            </a>
           </div>
           
           <div className="text-lg text-gray-700 space-y-6">

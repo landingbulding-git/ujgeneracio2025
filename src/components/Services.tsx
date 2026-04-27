@@ -87,7 +87,7 @@ export function Services() {
       </div>
 
       <div className="flex justify-center">
-        <a href="#contact">
+        <a href="https://tally.so/r/0QOOEN" target="_blank" rel="noopener noreferrer">
           <Button variant="primary">Ingyenes állapotfelmérést szeretnék</Button>
         </a>
       </div>
