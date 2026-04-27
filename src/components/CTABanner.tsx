@@ -1,6 +1,10 @@
 import { Button } from "./ui/Button";
 
-export function CTABanner() {
+interface CTABannerProps {
+  ctaImage?: React.ReactNode;
+}
+
+export function CTABanner({ ctaImage }: CTABannerProps) {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
@@ -27,11 +31,13 @@ export function CTABanner() {
         </div>
         
         <div className="md:w-1/2 w-full">
-          <img 
-            src="https://images.pexels.com/photos/545013/pexels-photo-545013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
-            alt="Hand washing" 
-            className="w-full h-auto aspect-video object-cover rounded-2xl shadow-sm"
-          />
+          {ctaImage || (
+            <img 
+              src="https://images.pexels.com/photos/545013/pexels-photo-545013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+              alt="Hand washing" 
+              className="w-full h-auto aspect-video object-cover rounded-2xl shadow-sm"
+            />
+          )}
         </div>
       </div>
     </section>

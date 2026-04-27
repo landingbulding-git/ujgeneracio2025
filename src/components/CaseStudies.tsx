@@ -14,6 +14,7 @@ function CaseStudy({
   imagePosition,
 }: {
   image: string;
+  imageNode?: React.ReactNode;
   title: string;
   text: React.ReactNode;
   problems: React.ReactNode;
@@ -93,10 +94,11 @@ function CaseStudy({
   );
 }
 
-export function CaseStudies() {
+export function CaseStudies({ image1, image2 }: { image1?: React.ReactNode, image2?: React.ReactNode }) {
   return (
     <section id="esettanulmanyok" className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <CaseStudy
+        imageNode={image1}
         image="https://d373oczarutjashi.public.blob.vercel-storage.com/casestudy1.webp"
         imagePosition="left"
         title="A mindennapokban hihetetlen változás volt, hogy mindig van tiszta víz a házban."
@@ -151,6 +153,7 @@ export function CaseStudies() {
       />
 
       <CaseStudy
+        imageNode={image2}
         image="https://d373oczarutjashi.public.blob.vercel-storage.com/casestudy2.webp"
         imagePosition="right"
         title="Fél év alatt tönkretette volna az összes új berendezést."

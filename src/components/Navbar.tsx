@@ -2,7 +2,11 @@ import { motion } from "motion/react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-export function Navbar() {
+interface NavbarProps {
+  logoImage?: React.ReactNode;
+}
+
+export function Navbar({ logoImage }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
@@ -19,11 +23,13 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             <a href="#">
-              <img
-                className="h-12 w-auto"
-                src="https://cdn.gamma.app/tzl2sixgokxpy70/91b2b2d653754fe98cb52fd58716b121/original/csak-vizcsepp-01.jpg"
-                alt="Tiszta Víz"
-              />
+              {logoImage || (
+                <img
+                  className="h-12 w-auto"
+                  src="https://cdn.gamma.app/tzl2sixgokxpy70/91b2b2d653754fe98cb52fd58716b121/original/csak-vizcsepp-01.jpg"
+                  alt="Tiszta Víz"
+                />
+              )}
             </a>
           </div>
 

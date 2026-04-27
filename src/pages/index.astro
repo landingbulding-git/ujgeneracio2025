@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
 import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
 import { CaseStudies } from '../components/CaseStudies';
@@ -14,21 +15,52 @@ import { CTABanner } from '../components/CTABanner';
 import { WhyActNow } from '../components/WhyActNow';
 import { FAQ } from '../components/FAQ';
 import { Footer } from '../components/Footer';
+
+import logoImg from '../assets/logo.jpg';
+import heroImg from '../assets/hero.webp';
+import aboutImg from '../assets/about.jpg';
+import casestudy1Img from '../assets/casestudy1.webp';
+import casestudy2Img from '../assets/casestudy2.webp';
+import ctaBannerImg from '../assets/cta-banner.jpg';
+import service1Img from '../assets/service1.jpeg';
+import service2Img from '../assets/service2.webp';
+import service3Img from '../assets/service3.webp';
+import service4Img from '../assets/service4.webp';
+import service5Img from '../assets/service5.webp';
+import service6Img from '../assets/service6.webp';
 ---
 
 <Layout title="Újgeneráció 2025">
 	<main class="min-h-screen bg-white">
-		<Navbar client:load />
-		<Hero client:load />
-		<CaseStudies client:visible />
+		<Navbar client:load>
+			<Image src={logoImg} alt="Tiszta Víz" class="h-12 w-auto" slot="logoImage" />
+		</Navbar>
+		<Hero client:load>
+			<Image src={heroImg} alt="20+ év tapasztalat" class="w-full max-w-2xl object-cover rounded-2xl" slot="heroImage" />
+		</Hero>
+		<CaseStudies client:visible>
+			<Image src={casestudy1Img} alt="Esettanulmány 1" class="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg" slot="image1" />
+			<Image src={casestudy2Img} alt="Esettanulmány 2" class="w-full h-full object-cover rounded-2xl aspect-[4/3] shadow-lg" slot="image2" />
+		</CaseStudies>
 		<Problems client:visible />
 		<Solution client:visible />
-		<Services client:visible />
+		<Services client:visible>
+			<Image src={service1Img} alt="Vízlágyítás" class="w-full h-full object-cover" slot="image1" />
+			<Image src={service2Img} alt="Ivóvíz-tisztítás" class="w-full h-full object-cover" slot="image2" />
+			<Image src={service3Img} alt="Komplett kútvíz-kezelés" class="w-full h-full object-cover" slot="image3" />
+			<Image src={service4Img} alt="Ipari és mezőgazdasági vízlágyítás" class="w-full h-full object-cover" slot="image4" />
+			<Image src={service5Img} alt="Fordított ozmózis (RO) rendszerek" class="w-full h-full object-cover" slot="image5" />
+			<Image src={service6Img} alt="NeoCrystal fizikai vízkezelés" class="w-full h-full object-cover" slot="image6" />
+		</Services>
 		<HowItWorks client:visible />
 		<Features client:visible />
-		<About client:visible />
+		<About client:visible>
+			<Image src={aboutImg} alt="Lévay Ferenc Zoltán" class="w-full h-full object-cover" slot="aboutImage" />
+		</About>
 		<Testimonials client:visible />
-		<CTABanner client:visible />
+		<CTABanner client:visible>
+			<Image src={ctaBannerImg} alt="Hand washing" class="w-full h-auto aspect-video object-cover rounded-2xl shadow-sm" slot="ctaImage" />
+		</CTABanner>
 		<WhyActNow client:visible />
 		<FAQ client:visible />
 		<Footer client:visible />

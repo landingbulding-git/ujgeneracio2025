@@ -1,7 +1,11 @@
 import { motion } from "motion/react";
 import { Button } from "./ui/Button";
 
-export function Hero() {
+interface HeroProps {
+  heroImage?: React.ReactNode;
+}
+
+export function Hero({ heroImage }: HeroProps) {
   return (
     <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center justify-center text-center mt-8">
       <motion.div
@@ -13,7 +17,7 @@ export function Hero() {
         <div className="inline-block bg-[#ccf6ff] text-dark font-bold text-sm tracking-wide uppercase px-4 py-2 rounded-full mb-6">
           A jövő tiszta vize ma kezdődik.
         </div>
-        
+
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight text-dark mb-6">
           Tiszta víz. Egészséges család. Megbízható megoldás.
         </h1>
@@ -30,17 +34,19 @@ export function Hero() {
             <Button variant="outline">Tovább olvasok</Button>
           </a>
         </div>
-        
+
         <p className="text-primary font-bold underline mb-16">
           100% garancia minden munkánkra
         </p>
 
         <div className="w-full flex justify-center mb-16 relative">
-          <img
-            src="https://d373oczarutjashi.public.blob.vercel-storage.com/20ev.webp"
-            alt="20+ év tapasztalat"
-            className="w-full max-w-2xl object-cover rounded-2xl"
-          />
+          {heroImage || (
+            <img
+              src="https://cdn.gamma.app/tzl2sixgokxpy70/13738d54a43d48b9b043b71d1131c973/original/30-ev-2.png"
+              alt="20+ év tapasztalat"
+              className="w-full max-w-2xl object-cover rounded-2xl"
+            />
+          )}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto pt-8 border-t border-gray-200">
